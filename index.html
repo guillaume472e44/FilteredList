@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recherche d'utilisateurs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" id="home">
+          <h1>Users</h1>
+        </a>
+        <ul class="navigation-list">
+          <li>
+            <a href="#">
+              <img src="./images/dashboard.svg" alt="dashboard" />
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/speech-bubble.svg" alt="speech-bubble" />
+              <span>Messenger</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/server.svg" alt="database" />
+              <span>Database</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./images/calendar.svg" alt="calendar" />
+              <span>Calendar</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="global-container">
+      <div class="input-container">
+        <input type="search" id="search" placeholder="Search for an user" />
+        <label for="search">
+          <img src="./images/search.svg" alt="search image" />
+        </label>
+      </div>
+
+      <h2>Database Results</h2>
+      <div class="users">
+        <div class="user-list header">
+          <span>Name</span>
+          <span>Email</span>
+          <span>Phone</span>
+        </div>
+
+        <div class="users-table">
+          <!--           
+          <ul class="user-list content">
+            <li class="user-name">
+              <img src="./images/speech-bubble.svg" alt="" />
+              <span>Adam Driver</span>
+            </li>
+            <li class="user-mail">adam.driver@ht.gmfr</li>
+            <li class="user-phone">01234569</li>
+          </ul> -->
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
